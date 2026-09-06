@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="The Architales Design — Architecture, bespoke interiors and spaces crafted with purpose, context and character. Founded by Ar. Manali Patel. Based in Gujarat, India.">
+	<meta name="keywords"
+		content="The Architales Design, Ar Manali Patel, architecture Gujarat, interior design Ahmedabad, luxury residential, commercial architecture, modern facades, Vadodara, Surat">
+	<meta name="author" content="The Architales Design · Ar. Manali Patel">
+	<title>The Architales Design — Ar. Manali Patel | Architecture · Interiors · Spaces</title>
+	<link rel="shortcut icon" type="image/png" href="images/architales/logo-dark.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Syne:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap"
+		rel="stylesheet">
+	<link href="css/architales.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Sleek Interactive Custom Mouse Follower Tail -->
+	<div class="cursor" aria-hidden="true" id="cursor">
+		<span class="cursor__ring"></span>
+		<span class="cursor__dot"></span>
+	</div>
+
+	<!-- Architectural Line Preloader (Exact AD Monogram Logo Geometry) -->
+	<div class="preloader" id="preloader">
+		<div class="preloader__mark" aria-hidden="true">
+			<svg viewBox="0 0 240 110" fill="none" class="preloader__svg">
+				<!-- A shape: left diagonal, right vertical, crossbar -->
+				<path class="preloader__stroke path-a1" d="M22 92 L62 10 L62 92" stroke="currentColor"
+					stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+				<path class="preloader__stroke path-a2" d="M38 56 L62 56" stroke="currentColor" stroke-width="4"
+					stroke-linecap="round" />
+				<!-- D triangle shape: vertical side, top diagonal down-right, bottom diagonal down-left -->
+				<path class="preloader__stroke path-d" d="M68 92 L68 10 L126 36 L68 92" stroke="currentColor"
+					stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+				<!-- Underline architectural ground base -->
+				<path class="preloader__stroke path-line" d="M62 96 L218 96" stroke="currentColor" stroke-width="4.5"
+					stroke-linecap="round" />
+				<!-- ESIGNS text matching logo-dark.png -->
+				<text x="94" y="88" fill="currentColor" font-family="'Syne', 'Plus Jakarta Sans', sans-serif"
+					font-size="28" font-weight="700" letter-spacing="4" class="preloader__text-svg">ESIGNS</text>
+			</svg>
+		</div>
+		<p class="preloader__text">The Architales Design</p>
+		<span class="preloader__sub">Ar. Manali Patel · Gujarat</span>
+	</div>
+
+	<!-- Main Navigation Header -->
+	<header class="site-header" id="header">
+		<a class="site-logo" href="#" aria-label="The Architales Design home">
+			<img class="logo-img logo-img--white" src="images/architales/logo-white.png" alt="The Architales Design"
+				width="165" height="72">
+			<img class="logo-img logo-img--dark" src="images/architales/logo-dark.png" alt="The Architales Design"
+				width="165" height="72">
+		</a>
+
+		<button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+			<span></span><span></span>
+		</button>
+
+		<nav class="site-nav" id="siteNav" aria-label="Primary">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Studio</a></li>
+				<li><a href="#">Selected Works</a></li>
+				<li><a href="#">Visual Chronicle</a></li>
+				<li><a href="#">Spatial Index</a></li>
+				<li><a href="#">Journal</a></li>
+				<li><a href="#" class="nav-cta-btn">Start a Project</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<!-- HERO BANNER WITH KEN BURNS ZOOM-IN SLIDESHOW (REAL PORTFOLIO IMAGES) -->
+		<section class="hero" id="hero">
+			<div class="hero__media-slider" id="heroSlider">
+				<!-- Slide 1 -->
+				<div class="hero__slide is-active" data-slide="0">
+					<img src="ar/banner-1.jpg" alt="The Architales Design bespoke master suite Gujarat"
+						class="hero__slide-img" fetchpriority="high">
+					<div class="hero__veil"></div>
+				</div>
+				<!-- Slide 2 -->
+				<div class="hero__slide" data-slide="1">
+					<img src="ar/banner-2.jpg" alt="Timber screen partition and living space by Ar. Manali Patel"
+						class="hero__slide-img" loading="lazy">
+					<div class="hero__veil"></div>
+				</div>
+				<!-- Slide 3 -->
+				<div class="hero__slide" data-slide="2">
+					<img src="ar/banner-3.jpg" alt="Contemporary commercial office interior in Gujarat"
+						class="hero__slide-img" loading="lazy">
+					<div class="hero__veil"></div>
+				</div>
+				<!-- Slide 4 -->
+				<div class="hero__slide" data-slide="3">
+					<img src="ar/banner-4.jpg" alt="Fluted sage wardrobe architecture by The Architales Design"
+						class="hero__slide-img" loading="lazy">
+					<div class="hero__veil"></div>
+				</div>
+
+				<div class="hero__grid-overlay" aria-hidden="true"></div>
+			</div>
+
+			<div class="hero__content">
+				<div class="hero__badge reveal-text">
+					<span class="badge-dot"></span>
+					<span>Gujarat · Ahmedabad · Vadodara</span>
+					<span class="badge-sep">/</span>
+					<span>Ar. Manali Patel</span>
+				</div>
+
+				<h1 class="hero__title">
+					<span class="hero__brand reveal-line">The Architales Design</span>
+				</h1>
+
+				<p class="hero__pos reveal-text">Architecture / Bespoke Interiors / Spatial Mastery</p>
+
+				<p class="hero__tagline reveal-text">
+					Crafting timeless residential and commercial realms rooted in context, organic materiality, and
+					evocative natural light across Gujarat.
+				</p>
+
+				<div class="hero__actions reveal-text">
+					<a href="#" class="hero-btn hero-btn--primary" data-magnetic>
+						<span class="btn__text">Explore Projects</span>
+						<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"
+							class="btn__icon">
+							<path d="M7 1V13M7 13L1 7M7 13L13 7" stroke="currentColor" stroke-width="1.5"
+								stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+					<a href="#" class="hero-btn hero-btn--ghost" data-magnetic>
+						<span class="btn__text">Visual Chronicle</span>
+						<svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"
+							class="btn__icon">
+							<path d="M1 13L13 1M13 1H4M13 1V10" stroke="currentColor" stroke-width="1.5"
+								stroke-linecap="round" stroke-linejoin="round" />
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<!-- VERTICAL SLIDER CIRCULAR DOTS ON RIGHT SIDE OF BANNER -->
+			<div class="hero__vertical-dots" id="heroDots" aria-label="Hero Slides">
+				<button class="vertical-dot is-active" data-index="0" aria-label="Slide 1">
+					<span class="vertical-dot__num">01</span>
+					<span class="vertical-dot__circle"><span class="vertical-dot__inner"></span></span>
+				</button>
+				<button class="vertical-dot" data-index="1" aria-label="Slide 2">
+					<span class="vertical-dot__num">02</span>
+					<span class="vertical-dot__circle"><span class="vertical-dot__inner"></span></span>
+				</button>
+				<button class="vertical-dot" data-index="2" aria-label="Slide 3">
+					<span class="vertical-dot__num">03</span>
+					<span class="vertical-dot__circle"><span class="vertical-dot__inner"></span></span>
+				</button>
+				<button class="vertical-dot" data-index="3" aria-label="Slide 4">
+					<span class="vertical-dot__num">04</span>
+					<span class="vertical-dot__circle"><span class="vertical-dot__inner"></span></span>
+				</button>
+			</div>
+		</section>
+
+		<!-- STUDIO INTRO -->
+		<section class="studio" id="studio">
+			<div class="studio__grid">
+				<div class="studio__copy">
+					<p class="section-label reveal-text">The Studio</p>
+					<blockquote class="studio__statement reveal-line">
+						We shape spaces with purpose, context and character.
+					</blockquote>
+					<div class="studio__divider" aria-hidden="true"></div>
+					<p class="studio__body reveal-text">
+						Led by <strong>Ar. Manali Patel</strong>, <strong>The Architales Design</strong> bridges
+						architectural precision, interior sensitivity and construction craft. Every volume we conceive
+						is tailored to honor the land it inhabits and the human lives that unfold within its walls.
+					</p>
+					<p class="studio__subbody reveal-text">
+						From private residences in Ahmedabad to bespoke commercial realms across Gujarat, our practice
+						emphasizes timeless natural materials—stone, concrete, warm timber, and sculpted light.
+					</p>
+					<div class="studio__links reveal-text">
+						<a href="#" class="text-link" data-magnetic>
+							About the practice <span>→</span>
+						</a>
+						<a href="https://www.instagram.com" target="_blank" rel="noopener"
+							class="text-link text-link--alt" data-magnetic>
+							Instagram Journal <span>↗</span>
+						</a>
+					</div>
+				</div>
+				<figure class="studio__figure reveal-clip">
+					<img src="ar/about.jpg" alt="Ar. Manali Patel — Founder &amp; Principal Architect" loading="lazy">
+					<figcaption>
+						<span>Ar. Manali Patel</span>
+						<em>Founder &amp; Principal Architect</em>
+					</figcaption>
+				</figure>
+			</div>
+		</section>
+
+		<!-- SELECTED PROJECTS: PROPERLY SIZED CARD CAROUSEL -->
+		<section class="projects" id="projects">
+			<div class="projects__head">
+				<div class="projects__head-left">
+					<p class="section-label reveal-text">Selected Works</p>
+					<h2 class="section-title reveal-line">Living Spaces</h2>
+				</div>
+				<div class="projects__head-right">
+					<p class="projects__note reveal-text">
+						Signature architectural commissions and tailored interior realms from The Architales Design
+						portfolio.
+					</p>
+					<!-- Carousel Navigation Arrows -->
+					<div class="works-carousel__nav">
+						<button class="works-nav-btn works-nav-btn--prev" id="worksPrev"
+							aria-label="Previous project card" data-magnetic>
+							<svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+								<path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="1.8"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+						<button class="works-nav-btn works-nav-btn--next" id="worksNext" aria-label="Next project card"
+							data-magnetic>
+							<svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+								<path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.8"
+									stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- Full-Image Card Carousel Track -->
+			<div class="works-carousel-wrap">
+				<div class="works-carousel" id="worksCarousel">
+					<!-- Card 1 -->
+					<article class="work-card" data-cursor="project">
+						<a href="#" class="work-card__link">
+							<figure class="work-card__media">
+								<img src="ar/prodcuts/A-17.webp"
+									alt="Fluted Velvet Suite — contemporary bedroom interior" loading="lazy">
+								<div class="work-card__overlay"></div>
+							</figure>
+							<div class="work-card__badges">
+								<span class="badge-tag">Featured Suite</span>
+								<span class="badge-year">2026</span>
+							</div>
+							<div class="work-card__content">
+								<span class="work-card__cat">Residential · Master Suite</span>
+								<h3 class="work-card__title">Fluted Velvet Suite</h3>
+								<p class="work-card__loc">Ahmedabad, Gujarat</p>
+								<div class="work-card__footer">
+									<span class="work-card__desc">Fluted velvet backdrop, ambient warmth &amp;
+										brass</span>
+									<span class="work-card__arrow">→</span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Card 2 -->
+					<article class="work-card" data-cursor="project">
+						<a href="#" class="work-card__link">
+							<figure class="work-card__media">
+								<img src="ar/prodcuts/A-11.webp"
+									alt="Sage Wood Atelier — minimalist workstation and study" loading="lazy">
+								<div class="work-card__overlay"></div>
+							</figure>
+							<div class="work-card__badges">
+								<span class="badge-tag">Study &amp; Workspace</span>
+								<span class="badge-year">2026</span>
+							</div>
+							<div class="work-card__content">
+								<span class="work-card__cat">Interiors</span>
+								<h3 class="work-card__title">Sage Wood Atelier</h3>
+								<p class="work-card__loc">Vadodara, Gujarat</p>
+								<div class="work-card__footer">
+									<span class="work-card__desc">Custom sage fluting &amp; warm timber joinery</span>
+									<span class="work-card__arrow">→</span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Card 3 -->
+					<article class="work-card" data-cursor="project">
+						<a href="#" class="work-card__link">
+							<figure class="work-card__media">
+								<img src="ar/prodcuts/A-12.webp"
+									alt="The Alcove Wardrobe — custom crafted wardrobe cabinetry" loading="lazy">
+								<div class="work-card__overlay"></div>
+							</figure>
+							<div class="work-card__badges">
+								<span class="badge-tag">Bespoke Joinery</span>
+								<span class="badge-year">2025</span>
+							</div>
+							<div class="work-card__content">
+								<span class="work-card__cat">Joinery Craft</span>
+								<h3 class="work-card__title">The Alcove Wardrobe</h3>
+								<p class="work-card__loc">Surat, Gujarat</p>
+								<div class="work-card__footer">
+									<span class="work-card__desc">Fluted sage lacquer &amp; arched niche geometry</span>
+									<span class="work-card__arrow">→</span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Card 4 -->
+					<article class="work-card" data-cursor="project">
+						<a href="#" class="work-card__link">
+							<figure class="work-card__media">
+								<img src="ar/prodcuts/A-16.webp"
+									alt="Timber Partition Home — screen divider and living lounge" loading="lazy">
+								<div class="work-card__overlay"></div>
+							</figure>
+							<div class="work-card__badges">
+								<span class="badge-tag">Screen Craft</span>
+								<span class="badge-year">2025</span>
+							</div>
+							<div class="work-card__content">
+								<span class="work-card__cat">Living &amp; Lounge</span>
+								<h3 class="work-card__title">Timber Partition Home</h3>
+								<p class="work-card__loc">Gandhinagar, Gujarat</p>
+								<div class="work-card__footer">
+									<span class="work-card__desc">Geometric louvers &amp; botanical art backdrop</span>
+									<span class="work-card__arrow">→</span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Card 5 -->
+					<article class="work-card" data-cursor="project">
+						<a href="#" class="work-card__link">
+							<figure class="work-card__media">
+								<img src="ar/prodcuts/A-3.webp" alt="Slate & Teak Sanctuary — calming bedroom retreat"
+									loading="lazy">
+								<div class="work-card__overlay"></div>
+							</figure>
+							<div class="work-card__badges">
+								<span class="badge-tag">Enduring Calm</span>
+								<span class="badge-year">2025</span>
+							</div>
+							<div class="work-card__content">
+								<span class="work-card__cat">Residential</span>
+								<h3 class="work-card__title">Slate &amp; Teak Sanctuary</h3>
+								<p class="work-card__loc">Ahmedabad, Gujarat</p>
+								<div class="work-card__footer">
+									<span class="work-card__desc">Textured slate paneling &amp; recessed mood
+										light</span>
+									<span class="work-card__arrow">→</span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Card 6 -->
+					<article class="work-card" data-cursor="project">
+						<a href="#" class="work-card__link">
+							<figure class="work-card__media">
+								<img src="ar/prodcuts/02.jpg.webp"
+									alt="Linear Pavilion Office — contemporary corporate workspace" loading="lazy">
+								<div class="work-card__overlay"></div>
+							</figure>
+							<div class="work-card__badges">
+								<span class="badge-tag">Commercial</span>
+								<span class="badge-year">2025</span>
+							</div>
+							<div class="work-card__content">
+								<span class="work-card__cat">Commercial Realms</span>
+								<h3 class="work-card__title">Linear Pavilion Office</h3>
+								<p class="work-card__loc">Ahmedabad, Gujarat</p>
+								<div class="work-card__footer">
+									<span class="work-card__desc">Linear suspended luminaires &amp; modern
+										ergonomics</span>
+									<span class="work-card__arrow">→</span>
+								</div>
+							</div>
+						</a>
+					</article>
+				</div>
+
+				<!-- Carousel Progress Bar -->
+				<div class="works-carousel__progress">
+					<div class="works-carousel__bar" id="worksBar"></div>
+				</div>
+			</div>
+		</section>
+
+		<!-- VISUAL CHRONICLE: PROPERLY ALIGNED 8-PHOTO GRID GALLERY WITH LIGHTBOX -->
+		<section class="gallery-section" id="gallery">
+			<div class="gallery__head">
+				<div class="gallery__head-left">
+					<p class="section-label reveal-text">Curated Gallery</p>
+					<h2 class="section-title reveal-line">Visual Chronicle</h2>
+				</div>
+				<p class="gallery__intro reveal-text">
+					Click on any space to explore the project chronicle, materiality, spatial concept, and design
+					narrative by Ar. Manali Patel.
+				</p>
+			</div>
+
+			<!-- Filter Category Controls -->
+			<div class="gallery__filters reveal-text" role="tablist" aria-label="Gallery category filters">
+				<button class="gallery-tab is-active" data-filter="all" role="tab" aria-selected="true">All
+					Works</button>
+				<button class="gallery-tab" data-filter="architecture" role="tab"
+					aria-selected="false">Architecture</button>
+				<button class="gallery-tab" data-filter="interiors" role="tab" aria-selected="false">Interiors</button>
+				<button class="gallery-tab" data-filter="residential" role="tab"
+					aria-selected="false">Residential</button>
+				<button class="gallery-tab" data-filter="details" role="tab" aria-selected="false">Craft &amp;
+					Details</button>
+			</div>
+
+			<!-- Clean Aligned 8-Item Photo Grid -->
+			<div class="gallery__grid">
+				<!-- Item 1 -->
+				<div class="gallery-item reveal-clip" data-category="architecture residential"
+					data-title="Fluted Velvet Master Suite" data-location="Ahmedabad, Gujarat · 2026"
+					data-cat="Residential / Interiors"
+					data-desc="A harmonious interplay of contemporary clean lines, bespoke fluted velvet headboard panelling, ambient cove lighting, and brass details."
+					data-img="ar/prodcuts/A-17.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/A-17.webp" alt="Fluted Velvet Master Suite" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Residential</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Fluted Velvet Suite</h3>
+								<p class="gallery-item__sub">Ahmedabad · Master Bedroom</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 2 -->
+				<div class="gallery-item reveal-clip" data-category="interiors details"
+					data-title="Sage Wood Study Atelier" data-location="Vadodara, Gujarat · 2026"
+					data-cat="Interiors / Workspace"
+					data-desc="Tailored study and workstation with sage green lacquer fluting, natural timber shelving, and ergonomic minimalist geometry."
+					data-img="ar/prodcuts/A-11.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/A-11.webp" alt="Sage Wood Study Atelier" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Interiors</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Sage Wood Atelier</h3>
+								<p class="gallery-item__sub">Vadodara · Study &amp; Lounge</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 3 -->
+				<div class="gallery-item reveal-clip" data-category="interiors details"
+					data-title="The Alcove Wardrobe Craft" data-location="Surat, Gujarat · 2025"
+					data-cat="Bespoke Joinery"
+					data-desc="Custom millwork featuring vertical sage louvers, arched display niche, and concealed seamless hardware crafted for tactile serenity."
+					data-img="ar/prodcuts/A-12.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/A-12.webp" alt="The Alcove Wardrobe Craft" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Joinery</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">The Alcove Wardrobe</h3>
+								<p class="gallery-item__sub">Surat · Fluted Joinery</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 4 -->
+				<div class="gallery-item reveal-clip" data-category="architecture residential"
+					data-title="Timber Partition &amp; Lounge" data-location="Gandhinagar, Gujarat · 2025"
+					data-cat="Living Spaces"
+					data-desc="Bespoke slatted timber spatial divider creating layered transparency between dining and foyer with rich botanical focal artwork."
+					data-img="ar/prodcuts/A-16.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/A-16.webp" alt="Timber Partition &amp; Lounge" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Architecture</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Timber Screen Home</h3>
+								<p class="gallery-item__sub">Gandhinagar · Living Screen</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 5 -->
+				<div class="gallery-item reveal-clip" data-category="interiors residential"
+					data-title="Slate &amp; Teak Master Retreat" data-location="Ahmedabad, Gujarat · 2025"
+					data-cat="Interiors / Residential"
+					data-desc="Intimate bedroom sanctuary pairing textured natural slate paneling with warm timber cabinetry and recessed linear illumination."
+					data-img="ar/prodcuts/A-3.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/A-3.webp" alt="Slate &amp; Teak Master Retreat" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Residential</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Slate &amp; Teak Suite</h3>
+								<p class="gallery-item__sub">Ahmedabad · Calm Sanctuary</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 6 -->
+				<div class="gallery-item reveal-clip" data-category="architecture"
+					data-title="Linear Commercial Pavilion" data-location="Ahmedabad, Gujarat · 2025"
+					data-cat="Commercial Architecture"
+					data-desc="Contemporary office environment with modular collaborative stations, linear floating illumination, and tailored acoustic wall detailing."
+					data-img="ar/prodcuts/02.jpg.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/02.jpg.webp" alt="Linear Commercial Pavilion" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Commercial</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Linear Pavilion</h3>
+								<p class="gallery-item__sub">Ahmedabad · Office Pavilion</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 7 -->
+				<div class="gallery-item reveal-clip" data-category="architecture"
+					data-title="Corporate Studio Workspace" data-location="Surat, Gujarat · 2026" data-cat="Commercial"
+					data-desc="Floor-to-ceiling glass partitions, fluted timber acoustic wall finishes, and custom executive conference spaces."
+					data-img="ar/prodcuts/05.jpg.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/05.jpg.webp" alt="Corporate Studio Workspace" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Commercial</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Corporate Studio</h3>
+								<p class="gallery-item__sub">Surat · Modern Workspace</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Item 8 -->
+				<div class="gallery-item reveal-clip" data-category="details interiors"
+					data-title="Artisan Timber Craft &amp; Lighting" data-location="Studio Collection · Gujarat · 2026"
+					data-cat="Craft &amp; Details"
+					data-desc="Mastercrafted joinery accents, textured fluted veneers, and integrated architectural lighting details."
+					data-img="ar/prodcuts/A-13.webp">
+					<div class="gallery-item__inner" data-cursor="gallery">
+						<img src="ar/prodcuts/A-13.webp" alt="Artisan Timber Craft &amp; Lighting" loading="lazy">
+						<div class="gallery-item__overlay">
+							<div class="gallery-item__top">
+								<span class="gallery-item__pill">Craft &amp; Detail</span>
+								<span class="gallery-item__zoom-icon" aria-hidden="true">+</span>
+							</div>
+							<div class="gallery-item__bottom">
+								<h3 class="gallery-item__title">Artisan Craft</h3>
+								<p class="gallery-item__sub">Detail · Architectural Veneer</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FULLSCREEN GALLERY LIGHTBOX MODAL -->
+		<div class="gallery-modal" id="galleryModal" aria-hidden="true" role="dialog" aria-modal="true"
+			aria-labelledby="modalTitle">
+			<div class="gallery-modal__backdrop" id="modalBackdrop"></div>
+			<div class="gallery-modal__container">
+				<!-- Close Button -->
+				<button class="gallery-modal__close" id="modalClose" aria-label="Close modal">
+					<span></span><span></span>
+				</button>
+
+				<!-- Lightbox Navigation -->
+				<button class="gallery-modal__nav gallery-modal__nav--prev" id="modalPrev"
+					aria-label="Previous project">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+						<path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</button>
+				<button class="gallery-modal__nav gallery-modal__nav--next" id="modalNext" aria-label="Next project">
+					<svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+						<path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"
+							stroke-linejoin="round" />
+					</svg>
+				</button>
+
+				<div class="gallery-modal__content">
+					<figure class="gallery-modal__media">
+						<img src="" alt="" id="modalImg">
+						<div class="gallery-modal__counter" id="modalCounter">01 / 08</div>
+					</figure>
+
+					<div class="gallery-modal__details">
+						<span class="gallery-modal__cat" id="modalCat">Architecture</span>
+						<h2 class="gallery-modal__title" id="modalTitle">Daisy Den</h2>
+						<p class="gallery-modal__loc" id="modalLoc">Ahmedabad, Gujarat · 2026</p>
+						<p class="gallery-modal__desc" id="modalDesc">Project description</p>
+
+						<div class="gallery-modal__meta-grid">
+							<div>
+								<em>Principal</em>
+								<span>Ar. Manali Patel</span>
+							</div>
+							<div>
+								<em>Studio</em>
+								<span>The Architales Design</span>
+							</div>
+							<div>
+								<em>Inquire</em>
+								<a href="mailto:thearchitalesdesign@gmail.com" id="modalInquire">Start a Conversation
+									→</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SPATIAL INDEX (STICKY INTERACTIVE SECTION WITH EQUAL HEIGHT ALIGNMENT) -->
+		<section class="categories-scroll-track" id="categories">
+			<div class="categories-sticky-wrapper">
+				<div class="categories__layout">
+					<div class="categories__list">
+						<p class="section-label reveal-text">Practice Areas</p>
+						<h2 class="section-title reveal-line">Spatial Index</h2>
+						<p class="categories__scroll-hint">Scroll down to explore disciplines</p>
+
+						<ul class="categories__nav-list">
+							<li class="cat-item is-active" data-cat="architecture" data-index="0">
+								<a href="#">
+									<span class="cat-item__num">01</span>
+									<span class="cat-item__name">Architecture</span>
+									<span class="cat-item__arrow">→</span>
+								</a>
+								<div class="cat-item__preview-desc">Monolithic massing, climate responsive facades &amp;
+									private residential volumes across Gujarat.</div>
+							</li>
+							<li class="cat-item" data-cat="interior" data-index="1">
+								<a href="#">
+									<span class="cat-item__num">02</span>
+									<span class="cat-item__name">Interior Design</span>
+									<span class="cat-item__arrow">→</span>
+								</a>
+								<div class="cat-item__preview-desc">Bespoke joinery, tailored ambient illumination, and
+									warm tactile travertine &amp; teak finishes.</div>
+							</li>
+							<li class="cat-item" data-cat="residential" data-index="2">
+								<a href="#">
+									<span class="cat-item__num">03</span>
+									<span class="cat-item__name">Residential Living</span>
+									<span class="cat-item__arrow">→</span>
+								</a>
+								<div class="cat-item__preview-desc">Enduring sanctuaries with internal green courtyards,
+									quiet rooms, and natural air flow.</div>
+							</li>
+							<li class="cat-item" data-cat="commercial" data-index="3">
+								<a href="#">
+									<span class="cat-item__num">04</span>
+									<span class="cat-item__name">Commercial Realms</span>
+									<span class="cat-item__arrow">→</span>
+								</a>
+								<div class="cat-item__preview-desc">Signature boutique offices, retail ateliers, and
+									corporate environments crafted for distinction.</div>
+							</li>
+						</ul>
+
+						<!-- Scroll Progress Indicator for Spatial Index -->
+						<div class="spatial-progress-bar">
+							<div class="spatial-progress-fill" id="spatialProgress"></div>
+						</div>
+					</div>
+
+					<div class="categories__visual" aria-hidden="true">
+						<div class="categories__visual-frame">
+							<img src="ar/prodcuts/A-16.webp" alt="Architecture" class="cat-visual-img is-visible"
+								data-cat-img="architecture">
+							<img src="ar/prodcuts/A-11.webp" alt="Interior Design" class="cat-visual-img"
+								data-cat-img="interior" loading="lazy">
+							<img src="ar/prodcuts/A-17.webp" alt="Residential Living" class="cat-visual-img"
+								data-cat-img="residential" loading="lazy">
+							<img src="ar/prodcuts/02.jpg.webp" alt="Commercial Realms" class="cat-visual-img"
+								data-cat-img="commercial" loading="lazy">
+							<div class="categories__visual-glow"></div>
+							<div class="categories__visual-tag" id="spatialVisualTag">Architecture Discipline</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- STUDIO JOURNAL / INSIGHTS: REFINED WHITISH EQUAL-HEIGHT CARDS WITHOUT PARAGRAPH DESCRIPTIONS -->
+		<section class="journal" id="journal">
+			<div class="journal__head">
+				<div class="journal__head-left">
+					<p class="section-label reveal-text">Insights</p>
+					<h2 class="section-title reveal-line">Studio Journal</h2>
+				</div>
+				<p class="journal__sub reveal-text">Architectural thoughts, material explorations, and spatial craft
+					from Ar. Manali Patel.</p>
+			</div>
+
+			<div class="journal__grid">
+				<!-- Article 1 -->
+				<article class="journal-card reveal-clip">
+					<a href="#" class="journal-card__link">
+						<figure class="journal-card__media">
+							<img src="ar/prodcuts/A-3.webp" alt="Architecture essay visual" loading="lazy">
+						</figure>
+						<div class="journal-card__body">
+							<div class="journal-card__meta">
+								<span class="journal-card__tag">Architecture Essay</span>
+								<span class="journal-card__date">Spring 2026</span>
+							</div>
+							<h3 class="journal-card__title">Light as an architectural building material</h3>
+							<span class="journal-card__read">Read Essay <span>→</span></span>
+						</div>
+					</a>
+				</article>
+
+				<!-- Article 2 -->
+				<article class="journal-card reveal-clip">
+					<a href="#" class="journal-card__link">
+						<figure class="journal-card__media">
+							<img src="ar/prodcuts/A-12.webp" alt="Materials essay visual" loading="lazy">
+						</figure>
+						<div class="journal-card__body">
+							<div class="journal-card__meta">
+								<span class="journal-card__tag">Materiality</span>
+								<span class="journal-card__date">Winter 2025</span>
+							</div>
+							<h3 class="journal-card__title">Warmth in contrast: Stone, Teak &amp; Concrete</h3>
+							<span class="journal-card__read">Read Essay <span>→</span></span>
+						</div>
+					</a>
+				</article>
+
+				<!-- Article 3 -->
+				<article class="journal-card reveal-clip">
+					<a href="#" class="journal-card__link">
+						<figure class="journal-card__media">
+							<img src="ar/prodcuts/05.jpg.webp" alt="Interior essay visual" loading="lazy">
+						</figure>
+						<div class="journal-card__body">
+							<div class="journal-card__meta">
+								<span class="journal-card__tag">Interior Sensibility</span>
+								<span class="journal-card__date">Autumn 2025</span>
+							</div>
+							<h3 class="journal-card__title">Quiet rooms, enduring calm in modern living</h3>
+							<span class="journal-card__read">Read Essay <span>→</span></span>
+						</div>
+					</a>
+				</article>
+			</div>
+		</section>
+
+		<!-- CONTACT -->
+		<section class="contact" id="contact">
+			<div class="contact__panel">
+				<figure class="contact__media reveal-clip">
+					<img src="ar/cta.jpg" alt="Ar. Manali Patel workspace" loading="lazy">
+				</figure>
+				<div class="contact__copy">
+					<p class="section-label reveal-text">Begin</p>
+					<h2 class="contact__title reveal-line">Have a space in mind?</h2>
+					<p class="contact__sub reveal-text">Let’s shape it together.</p>
+					<p class="contact__desc reveal-text">
+						Whether planning a bespoke residence, weekend retreat, or contemporary interior transformation,
+						Ar. Manali Patel and The Architales Design studio collaborate closely with you from initial
+						sketch to final handover across Gujarat.
+					</p>
+					<a href="mailto:thearchitalesdesign@gmail.com" class="contact__cta reveal-text" data-magnetic>
+						<span class="btn__text">Start a Conversation</span> <span>→</span>
+					</a>
+					<!-- <ul class="contact__meta reveal-text">
+						<li><strong>Practice:</strong> The Architales Design · Ar. Manali Patel</li>
+						<li><strong>Location:</strong> Ahmedabad &amp; Vadodara, Gujarat, India</li>
+						<li><strong>Email:</strong> <a
+								href="mailto:thearchitalesdesign@gmail.com">thearchitalesdesign@gmail.com</a></li>
+						<li><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></li>
+					</ul> -->
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- REBUILT 4-COLUMN ARCHITECTURAL FOOTER -->
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<!-- Col 1: Studio Brand, Narrative & Social Links -->
+			<div class="footer-col footer-col--brand">
+				<a href="#" class="footer-logo-link" aria-label="The Architales Design home">
+					<img src="images/architales/logo-dark.png" alt="The Architales Design" width="160" height="70"
+						class="footer-logo-img">
+				</a>
+				<p class="footer-brand-para">
+					The Architales Design studio crafts bespoke residences, contemporary architecture, and emotive
+					interior spaces rooted in honest materials, climatic context, and quiet luxury across Gujarat.
+				</p>
+				<div class="footer-social-links" aria-label="Social media channels">
+					<a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"
+						class="social-icon-btn" data-magnetic>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+							stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+							<rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+							<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+							<line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+						</svg>
+					</a>
+					<a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp"
+						class="social-icon-btn" data-magnetic>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+							<path
+								d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z" />
+						</svg>
+					</a>
+					<a href="mailto:thearchitalesdesign@gmail.com" aria-label="Email Studio" class="social-icon-btn"
+						data-magnetic>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+							stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+							<rect width="20" height="16" x="2" y="4" rx="2" />
+							<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+						</svg>
+					</a>
+					<a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"
+						class="social-icon-btn" data-magnetic>
+						<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+							stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+							<rect width="4" height="12" x="2" y="9" />
+							<circle cx="4" cy="4" r="2" />
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<!-- Col 2: Quick Links -->
+			<div class="footer-col footer-col--links">
+				<h4 class="footer-col-title">Quick Links</h4>
+				<ul class="footer-nav-list">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Studio</a></li>
+					<li><a href="#">Selected Works</a></li>
+					<li><a href="#">Visual Chronicle</a></li>
+					<li><a href="#">Spatial Index</a></li>
+					<li><a href="#">Studio Journal</a></li>
+					<li><a href="#">Contact Practice</a></li>
+				</ul>
+			</div>
+
+			<!-- Col 3: Signature Projects -->
+			<div class="footer-col footer-col--projects">
+				<h4 class="footer-col-title">Signature Works</h4>
+				<ul class="footer-projects-list">
+					<li>
+						<a href="#">
+							<strong>Fluted Velvet Suite</strong>
+							<span>Ahmedabad · Master Suite</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<strong>Sage Wood Atelier</strong>
+							<span>Vadodara · Study &amp; Lounge</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<strong>The Alcove Wardrobe</strong>
+							<span>Surat · Fluted Joinery</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<strong>Timber Screen Home</strong>
+							<span>Gandhinagar · Living Screen</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<strong>Slate &amp; Teak Suite</strong>
+							<span>Ahmedabad · Calm Sanctuary</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- Col 4: Contact Details -->
+			<div class="footer-col footer-col--contact">
+				<h4 class="footer-col-title">Studio Details</h4>
+				<div class="footer-contact-info">
+					<div class="contact-entry">
+						<span class="entry-label">Studio Practice</span>
+						<p class="entry-val">The Architales Design<br>Ar. Manali Patel</p>
+					</div>
+
+					<div class="contact-entry">
+						<span class="entry-label">Locations</span>
+						<p class="entry-val">Ahmedabad &amp; Vadodara, Gujarat, India</p>
+					</div>
+
+					<div class="contact-entry">
+						<span class="entry-label">Inquiries</span>
+						<p class="entry-val">
+							<a href="mailto:thearchitalesdesign@gmail.com"
+								class="footer-val-link">thearchitalesdesign@gmail.com</a>
+						</p>
+					</div>
+
+					<div class="contact-entry">
+						<span class="entry-label">Consultations</span>
+						<p class="entry-val">
+							<a href="tel:+919876543210" class="footer-val-link">+91 98765 43210</a>
+							<span class="hours-tag">Mon – Sat: 9:30 AM – 6:30 PM</span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer Bottom Bar -->
+		<div class="site-footer__bottom">
+			<div class="footer-bottom-left">
+				<p>© <span id="year"></span> The Architales Design · Ar. Manali Patel. All rights reserved.</p>
+				<span class="footer-sep">|</span>
+				<p>Architecture &amp; Interior Practice · Gujarat, India</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- FLOATING STICKY WHATSAPP BUTTON (LEFT SIDE, OFFICIAL WHATSAPP ICON) -->
+	<a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="sticky-whatsapp-btn" id="stickyWhatsApp"
+		aria-label="Chat on WhatsApp" data-magnetic>
+		<svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+			<path
+				d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z" />
+		</svg>
+	</a>
+
+	<!-- FLOATING STICKY SCROLL-UP CIRCULAR BUTTON (RIGHT SIDE) -->
+	<button class="sticky-back-to-top" id="stickyBackToTop" aria-label="Scroll to top" data-magnetic>
+		<svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+			<path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"
+				stroke-linejoin="round" />
+		</svg>
+	</button>
+
+	<script src="js/architales.js" defer></script>
+</body>
+
+</html>
